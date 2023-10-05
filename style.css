@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:wght@700&display=swap');
+
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    text-align: center;
+}
+
+#score {
+    color: white;
+    font-size: 50px;
+    font-family: "Carter One", cursive;
+    margin-bottom: 50px;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: rgb(126, 179, 70);
+}
+
+#canvas {
+    background: url("files/stadium.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
